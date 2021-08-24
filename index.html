@@ -1,0 +1,180 @@
+<html>
+	<head>
+		<title>Membuat Image Slider Menggunakan jQuery</title>
+		<meta
+			name="description"
+			content="Sederhana dan sangat powerful: Slide slider"
+		/>
+		<link rel="stylesheet" href="./styles/main.css" />
+
+		<!-- Instalasi font Lato dari Google, abaikan jika tidak terkoneksi Internet -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Include jQuery -->
+		<script src="./scripts/jquery-3.6.0.js"></script>
+		<script src="./scripts/jquery-migrate-1.2.1.min.js"></script>
+
+		<!-- Include the slider scripts -->
+		<script src="./scripts/jquery.simpleslider.js"></script>
+		<script src="./scripts/backstretch.js"></script>
+		<script src="./scripts/custom.js"></script>
+	</head>
+	<body>
+		<header id="top">
+			<div id="logo">
+				<span class="logo">Slider menggunakan jQuery</span>
+				<span class="dynamic"></span>
+			</div>
+		</header>
+
+		<div class="pagewrap">
+			<div
+				class="fb-like"
+				data-href="https://www.facebook.com/hrswjynt"
+				data-layout="button_count"
+				data-action="like"
+				data-show-faces="false"
+				data-share="true"
+			></div>
+
+			<div class="githubbuttons">
+				<!-- Watch -->
+				<a
+					class="github-button"
+					href="https://github.com/hrswjynt/notes-app-back-end/subscription"
+					data-size="large"
+					data-show-count="true"
+					aria-label="Watch hrswjynt/notes-app-back-end on GitHub"
+					>Watch</a
+				>
+				<!-- Fork -->
+				<a
+					class="github-button"
+					href="https://github.com/hrswjynt/notes-app-back-end/fork"
+					data-size="large"
+					data-show-count="true"
+					aria-label="Fork hrswjynt/notes-app-back-end on GitHub"
+					>Fork</a
+				>
+				<!-- Follow -->
+				<a
+					class="github-button"
+					href="https://github.com/hrswjynt"
+					data-size="large"
+					data-show-count="true"
+					aria-label="Follow @hrswjynt on GitHub"
+					>Follow @hrswjynt</a
+				>
+			</div>
+
+			<div class="pageblock" id="fullscreen">
+				<div class="slider">
+					<!-- Slide satu -->
+					<div class="slide" id="satu">
+						<div class="slidecontent">
+							<span class="headersur"
+								>Sangat powerfull dan sederhana diwaktu yang sama</span
+							>
+							<h1>SLIDE PERTAMA</h1>
+							<div class="button" onclick="mainslider.nextSlide();">
+								Lihat betapa sederhananya
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide dua -->
+					<div class="slide" id="dua">
+						<div class="slidecontent">
+							<span class="headersur"><br /><br />Masukkan semua disini</span>
+							<h1>SLIDE KEDUA</h1>
+							<div class="text">
+								<p>
+									Siapkan dan download file simpleslider.js, jquery.touchswipejs
+									dan transit.js
+								</p>
+
+<xmp>
+	<script src="./scripts/jquery-3.6.0.js"></script>
+	<script src="./scripts/jquery-migrate-1.2.1.min.js"></script>
+	<script src="./scripts/transit.js"></script>
+	<script src="./scripts/jquery.touchSwipe.js"></script>
+	<script src="./scripts/jquery.simpleslider.js"></script>
+</xmp>
+
+								<div class="button" onclick="mainslider.nextSlide()">
+									Sudah? Ayo Lanjutkan!
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide tiga -->
+					<div class="slide" id="tiga">
+						<div class="slidecontent">
+							<span class="headersur">Sudah siap?</span>
+							<h1>Langkah Berikutnya</h1>
+							<div class="text">
+								<p>
+									Masukkan kode ini di HTML, cek
+									<a
+										href="https://github.com/hrswjynt/notes-app-back-end"
+										target="_BLANK"
+										>Github README</a
+									>
+									Contoh HTML.
+								</p>
+
+<xmp>
+$(document).ready(function () {
+	$(".slider").simpleSlider();
+});
+</xmp								>
+
+								<div class="button" onclick="mainslider.nextSlide();">
+									Selesai? Lanjutkan lagi!
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide empat -->
+					<div class="slide" id="empat">
+						<div class="slidecontent">
+							<span class="headersur">Sudah Selesai</span>
+							<h1>LIHAT</h1>
+							<div class="text">
+								<p>Slider Sudah Selesai, Mau lihat opsi yang lain?</p>
+								<p>
+									Ada methods, triggers dan tracker yang bisa dikonfigurasikan
+								</p>
+
+								<div class="button">
+									<a
+										href="https://github.com/hrswjynt/notes-app-back-end"
+										target="_BLANK"
+										>Cek</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="copy">
+				Project:
+				<a href="https://www.facebook.com/hrswjynt" rel="publisher"
+					>Haris Wijayanto</a
+				>
+				<a href="https://github.com/hrswjynt">Github: Haris Wijayanto</a>
+			</div>
+		</div>
+		<!-- Place this tag in your head or just before your close body tag. -->
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+	</body>
+</html>
