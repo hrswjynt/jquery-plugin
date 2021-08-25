@@ -11,7 +11,7 @@ $(document).ready(function () {
 		slideOnInterval: false, // Interval slide
 		interval: 9000, // Interval slide, jika slideOnInterval is enabled/true
 		animateDuration: 1000, // Durasi animasi
-		animationEasing: "ease", // Nilai yang diterima: linear ease in out in-out snap easeOutCubic
+		animationEasing: "easeOutCurc", // Nilai yang diterima: linear ease in out in-out snap easeOutCubic
 		// easeInOutCubic easeInCirc easeOutCirc easeInOutCirc easeInExpo easeOutExpo
 		// easeInOutExpo easeInQuad easeInOutQuad easeInQuart easeOutQuart
 		// easeInOutQuart easeInQuint easeOutQuint easeInOutQuint easeInSine easeOutSine
