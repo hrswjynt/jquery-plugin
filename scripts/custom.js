@@ -5,13 +5,13 @@ $(document).ready(function () {
 	var options = {
 		slides: ".slide", // Nama slide di slidecontainer
 		swipe: false, // handler swipe, wajib include touchSwipe
-		transition: "slide", // Transisi slide => slide dan fade
+		transition: "fade", // Transisi slide => slide dan fade
 		slideTracker: true, // menambah pelacakan slide
 		slideTrackerID: "slideposition", // Nama pelacakan slide
-		slideOnInterval: false, // Interval slide
+		slideOnInterval: true, // Interval slide
 		interval: 9000, // Interval slide, jika slideOnInterval is enabled/true
-		animateDuration: 1000, // Durasi animasi
-		animationEasing: "easeOutCurc", // Nilai yang diterima: linear ease in out in-out snap easeOutCubic
+	animateDuration: 500, // Durasi animasi
+		animationEasing: "easeInOut", // Nilai yang diterima: linear ease in out in-out snap easeOutCubic
 		// easeInOutCubic easeInCirc easeOutCirc easeInOutCirc easeInExpo easeOutExpo
 		// easeInOutExpo easeInQuad easeInOutQuad easeInQuart easeOutQuart
 		// easeInOutQuart easeInQuint easeOutQuint easeInOutQuint easeInSine easeOutSine

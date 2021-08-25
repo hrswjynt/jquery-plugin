@@ -33,14 +33,23 @@
 		</header>
 
 		<div class="pagewrap">
-			<div
-				class="fb-like"
-				data-href="https://www.facebook.com/hrswjynt"
-				data-layout="button_count"
-				data-action="like"
-				data-show-faces="false"
-				data-share="true"
-			></div>
+			<div id="fb-root">
+				<div
+					class="fb-like"
+					data-href="https://www.facebook.com/Haris-Wijayanto-101525147941656"
+					data-layout="button_count"
+					data-action="like"
+					data-size="large"
+					data-share="true"
+				></div>
+			</div>
+			<script
+				async
+				defer
+				crossorigin="anonymous"
+				src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v11.0"
+				nonce="8Sm4W7We"
+			></script>
 
 			<div class="githubbuttons">
 				<!-- Watch -->
@@ -133,7 +142,7 @@
 $(document).ready(function () {
 	$(".slider").simpleSlider();
 });
-</xmp
+								</xmp
 								>
 
 								<div class="button" onclick="mainslider.nextSlide();">
@@ -154,12 +163,8 @@ $(document).ready(function () {
 									Ada methods, triggers dan tracker yang bisa dikonfigurasikan
 								</p>
 
-								<div class="button">
-									<a
-										href="https://github.com/hrswjynt/jquery-plugin"
-										target="_BLANK"
-										>Cek</a
-									>
+								<div class="button" onclick="mainslider.nextSlide();">
+									Transisi Otomatis
 								</div>
 							</div>
 						</div>
@@ -168,17 +173,23 @@ $(document).ready(function () {
 					<!-- Slide lima -->
 					<div class="slide" id="lima">
 						<div class="slidecontent">
-							<span class="headersur">EITTSSSS!!!</span>
-							<h1>INI SLIDE BONUS</h1>
+							<span class="headersur">Eitssss!!!</span>
+							<h1>TRANSISI OTOMATIS</h1>
 							<div class="text">
-								<p></p>
+								<p>
+									Gunakan option ini untuk membuat slide berganti secara
+									otomatis:
+								</p>
+								<xmp
+>
+	slideOnInterval: true, // Aktif atau tidaknya slide otomatis
+	interval: 9000, // Durasi sebelum slide selanjutnya ditampilkan
+	animateDuration: 500, // Durasi animasi pergantian slide
+								</xmp
+								>
 
-								<div class="button">
-									<a
-										href="https://github.com/hrswjynt/jquery-plugin"
-										target="_BLANK"
-										>Cek</a
-									>
+								<div class="button" onclick="mainslider.nextSlide();">
+									Gaya Transisi
 								</div>
 							</div>
 						</div>
@@ -187,19 +198,22 @@ $(document).ready(function () {
 					<!-- Slide enam -->
 					<div class="slide" id="enam">
 						<div class="slidecontent">
-							<span class="headersur">Sudah Selesai</span>
-							<h1>LIHAT</h1>
+							<span class="headersur">Konfigurasi</span>
+							<h1>GAYA TRANSISI</h1>
 							<div class="text">
-								<p>Slider Sudah Selesai, Mau lihat opsi yang lain?</p>
-								<p>
-									Ada methods, triggers dan tracker yang bisa dikonfigurasikan
-								</p>
+								<p>ubah option seperti dibawah ini:</p>
+
+								<xmp
+>
+	transition: "fade", // "slide" dan "fade"
+</xmp
+								>
 
 								<div class="button">
 									<a
 										href="https://github.com/hrswjynt/jquery-plugin"
 										target="_BLANK"
-										>Cek</a
+										>Repository</a
 									>
 								</div>
 							</div>

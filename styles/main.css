@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
 	margin: 0;
 	padding: 0;
 	font-family: "Lato", Arial, Verdana;
@@ -76,7 +77,8 @@ header#top #logo {
 	color: white;
 }
 
-.pagewrap .copy a,.pagewrap .copy a:hover {
+.pagewrap .copy a,
+.pagewrap .copy a:hover {
 	color: white;
 }
 
@@ -91,8 +93,8 @@ header#top #logo {
 	font-size: 72px;
 	margin: 0;
 	padding: 0;
-	font-family: 'sxehwcmaax-blackblack', Helvetica, Arial, Verdana;
-	font-weight: normal;	
+	font-family: "sxehwcmaax-blackblack", Helvetica, Arial, Verdana;
+	font-weight: normal;
 }
 
 .pageblock#fullscreen .slider {
@@ -152,14 +154,14 @@ header#top #logo {
 	line-height: 20px;
 }
 
-.pageblock#fullscreen .slider .slide .slidecontent .button a,.pageblock#fullscreen .slider .slide .slidecontent .button a:hover {
+.pageblock#fullscreen .slider .slide .slidecontent .button a,
+.pageblock#fullscreen .slider .slide .slidecontent .button a:hover {
 	text-decoration: none !important;
 	color: white;
 }
 
 .pageblock#fullscreen .slider .slide .slidecontent .button:hover {
-	background: rgba(0,0,0,0.3)
-
+	background: rgba(0, 0, 0, 0.3);
 }
 .pageblock#fullscreen .slider .slide .slidecontent .text {
 	width: 900px;
